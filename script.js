@@ -135,7 +135,7 @@ function sideBar(){
     let tl = gsap.timeline()
       
     tl.to(".navbar-center",{
-          right:0,
+          top:0,
           duration:0.3,
     })
     
@@ -147,7 +147,8 @@ function sideBar(){
     crossMenubar.addEventListener("click",function(){
       tl.reverse()
     })
- }
+}
+
 
 animation()
 cursor()
